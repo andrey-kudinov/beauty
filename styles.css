@@ -1,0 +1,1034 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body,
+html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.beauty {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212322;
+  margin: 45px 0;
+}
+.beauty .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.beauty p,
+.beauty h1,
+.beauty h2,
+.beauty h3,
+.beauty h4,
+.beauty h5,
+.beauty h6 {
+  margin: 0;
+}
+.beauty .title-1,
+.beauty .title-2 {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.beauty .title-3 {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.beauty .title-4 {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.beauty p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.beauty .txt_sm {
+  font-size: 14px !important;
+  line-height: 19px !important;
+  color: #bababa !important;
+}
+
+.beauty ._mb-1 {
+  margin-bottom: 4px !important;
+}
+.beauty ._mb-2 {
+  margin-bottom: 8px !important;
+}
+.beauty ._mb-4 {
+  margin-bottom: 16px !important;
+}
+.beauty ._mb-5 {
+  margin-bottom: 20px !important;
+}
+.beauty ._mb-8 {
+  margin-bottom: 32px !important;
+}
+.beauty ._mb-11 {
+  margin-bottom: 44px !important;
+}
+
+.beauty img {
+  max-width: inherit;
+}
+/*
+ * TOP BANNER 
+ *
+*/
+.beauty .banner {
+  width: 100%;
+  height: 500px;
+  background-color: #e7e0d9;
+  background-image: url(/img/top-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: -ms-grid;
+
+  display: grid;
+  -ms-grid-columns: 1.5fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.beauty .banner__img-mob img {
+  display: none;
+}
+
+.beauty .banner__txt {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 70px 0 0px;
+}
+.beauty .sub__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+/* END TOP BANNER */
+
+/*
+ * FIRST BLOCK
+ *
+*/
+.beauty .block-1 {
+  margin-top: 80px;
+}
+.beauty .seo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.beauty .seo img {
+  margin-left: 30px;
+}
+.beauty .seo p {
+  color: #56565a;
+}
+/* END FIRST BLOCK */
+
+/*
+ * STANDARTS BLOCK
+ *
+*/
+.beauty .standarts {
+  margin-top: 80px;
+  letter-spacing: -0.3px;
+}
+.beauty .standarts__wrapper {
+  padding: 70px 100px;
+}
+.beauty .standarts__wrapper p {
+  color: #56565a;
+}
+.beauty .standarts__bg {
+  background-image: url(/img/bg-standart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.beauty .standarts__list-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+.beauty .standarts__list-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-gap: 12px;
+  list-style-type: none;
+  padding: 0;
+}
+.beauty .standarts__list-elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 16px;
+}
+.beauty .standarts__list-2 {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-gap: 32px;
+}
+.beauty .standarts__list-item {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+}
+/* END STANDARTS BLOCK */
+
+/*
+ * INDEGRIENTS BLOCK
+ *
+*/
+.beauty .indegrients-wrap {
+  margin-top: 80px;
+}
+
+.beauty .indegrients-title {
+  font-family: "GTWalsheimPro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 38px;
+  text-align: center;
+  color: #212322;
+  margin-bottom: 30px;
+}
+.beauty .indegrients__more {
+  margin-bottom: 30px;
+}
+.beauty .indegrients__more-title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.beauty .indegrients__more-title-text {
+  font-family: "GTWalsheimPro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #212322;
+  cursor: pointer;
+}
+.beauty .indegrients__more-title img {
+  margin-left: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.beauty .indegrients__more-desc {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #56565a;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.beauty .indegrients__captions {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 11px;
+  height: 76px;
+}
+.beauty .indegrients__caption {
+  position: relative;
+  font-family: "GTWalsheimPro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212322;
+  width: 270px;
+  margin-right: 30px;
+  padding-bottom: 11px;
+  z-index: 2;
+  cursor: pointer;
+}
+.beauty .indegrients__caption:last-child {
+  margin-right: 0;
+}
+.beauty .indegrients__caption-active {
+  color: #567884;
+  border-bottom: 5px solid #567884;
+}
+.beauty .indegrients__hr {
+  position: relative;
+  margin-bottom: 30px;
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  border: none; /* Убираем границу */
+  background-color: #e5e5e5; /* Цвет линии */
+  color: #e5e5e5; /* Цвет линии для IE6-7 */
+  height: 1px; /* Толщина линии */
+  margin-top: -14px;
+}
+.beauty .indegrients__descs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.beauty .indegrients__desc {
+  margin-left: -28px;
+  width: 270px;
+}
+.beauty .indegrients__desc li {
+  list-style-type: disc;
+}
+.beauty .indegrients__desc_1 {
+  display: none;
+}
+.beauty .indegrients__desc_2 {
+  display: none;
+}
+.beauty .indegrients__desc_3 {
+  display: none;
+}
+.beauty .indegrients__desc_active {
+  display: block;
+}
+
+/* END INDIGRIENTS */
+
+/*
+ * BLOCK FORMULS
+ *
+*/
+.beauty .formuls-wrap {
+  margin-top: 80px;
+}
+.beauty .formuls {
+}
+
+.beauty .formuls-title {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.beauty .formuls-desc {
+  font-family: "GTWalsheimPro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #56565a;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.beauty .formuls__cards {
+  display: flex;
+  justify-content: center;
+}
+
+.beauty .formuls__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 370px;
+  margin-right: 30px;
+}
+
+.beauty .formuls__card:last-child {
+  margin-right: 0;
+}
+
+.beauty .formuls__card-icon img {
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+
+.beauty .formuls__card-caption {
+  font-family: "GTWalsheimPro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #212322;
+  margin-bottom: 5px;
+}
+
+.beauty .formuls__card-desc {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #56565a;
+  margin-bottom: 5px;
+}
+
+.beauty .formuls__card-footnote {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bababa;
+}
+/* END BLOCK FORMULS */
+
+/*
+ * BLOCK CENTER BANNER
+ *
+*/
+.beauty .banner-center-wrap {
+  margin-top: 80px;
+  background-image: url(/img/img-aloe.jpg);
+  height: 520px;
+  background-size: cover;
+}
+.beauty .banner-center-wrap .container {
+  padding: 0.1px;
+}
+.beauty .banner-center {
+  margin: 70px 0;
+  padding: 70px 100px;
+  background-color: #f7f5f5;
+}
+/* END BLOCK CENTER BANNER */
+/*
+ * BLOCK WHAT IS
+ *
+*/
+.beauty .what-is-wrap {
+  margin-top: 80px;
+}
+.beauty .what-is__txt {
+  max-width: 870px;
+  margin: 0 auto;
+  text-align: center;
+}
+.beauty .what-is__txt p {
+  color: #56565a;
+}
+.beauty .what-is__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 44px;
+}
+.beauty .what-is__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 8px;
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.beauty .what-is__btn img {
+  transition: 0.3s;
+}
+.beauty .what-is-desc {
+  margin-top: 11px;
+  transition: 0.3s;
+  max-height: 0;
+  overflow: hidden;
+}
+/* END BLOCK WHAT IS */
+
+/*
+ * SPY BLOCK
+ *
+*/
+.beauty .planet-spy {
+  margin-top: 80px;
+}
+.beauty .spy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.beauty .planet-spy .title-2 {
+  text-align: center;
+  max-width: 870px;
+}
+.beauty .spy__btn {
+  display: flex;
+  align-items: center;
+  grid-gap: 4px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.beauty .spy__btn img {
+  transition: 0.3s;
+}
+.beauty .spy__desc {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #56565a;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.beauty .more-text_opened {
+  max-height: 3000px;
+}
+.beauty .btn_opened img {
+  transform: rotate(180deg);
+}
+
+/* END SPY */
+
+/*
+ * FARM BLOCK
+ *
+*/
+.beauty .farm-wrap {
+  margin-top: 65px;
+}
+.beauty .farm .title-2 {
+  text-align: center;
+}
+.beauty .farm__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.beauty .farm__content img {
+  margin-right: 30px;
+}
+.beauty .farm__subtitle {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212322;
+}
+.beauty p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #56565a;
+}
+.beauty .farm__img-tab-mob {
+  display: none;
+}
+/* END FARM BLOCK
+
+/*
+ * SERTIFICATS BLOCK
+ *
+*/
+.beauty .sertificat-wrap {
+  margin: 44px 0;
+}
+.beauty .sertificat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.beauty .sertificat__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.beauty .sertificat__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 50px;
+}
+.beauty .sertificat__img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.beauty .sertificat__txt {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+.beauty .sertificat__link {
+  font-size: 14px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline !important;
+  color: #0a467e;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.beauty .sertificat__link:hover {
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+  color: #115ea7;
+}
+/* END SERTIFICATS */
+
+/*
+ * BOTTOM BLOCK
+ *
+*/
+.beauty .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.beauty .bottom .title-2 {
+  margin-bottom: 10px;
+}
+.beauty .bottom img {
+  margin-left: 30px;
+}
+.beauty .bottom__txt p {
+  color: #56565a;
+}
+.beauty p.sub__title_bottom {
+  font-family: "GTWalsheimPro", "Source Sans Pro", sans-serif;
+  color: #212322;
+}
+.beauty .seo__img-tab-mob {
+  display: none;
+}
+/* END BOTTOM BLOCK */
+
+@media screen and (max-width: 1199px) {
+  .beauty .container {
+    padding: 0 39px;
+  }
+  .beauty .banner {
+    grid-template-columns: 1fr 1.2fr;
+    background-position: 50%;
+    background-image: url(/img/top-banner_tab.jpg);
+    width: 100vw;
+    margin-left: -39px;
+    height: 445px;
+  }
+  .beauty .banner__txt {
+    padding-right: 39px;
+  }
+  .beauty .seo {
+    flex-direction: column;
+  }
+  .beauty ._mb-8 {
+    margin-bottom: 30px !important;
+  }
+  .beauty .seo__img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .beauty .seo__img img {
+    margin: 0;
+    width: 100%;
+  }
+  .beauty .farm__img-img {
+    margin: 0;
+    width: 100%;
+  }
+  .beauty .standarts {
+    margin-top: 70px;
+  }
+  .beauty .standarts__bg {
+    width: 100vw;
+    margin-left: -39px;
+  }
+  .beauty .standarts__wrapper {
+    padding: 70px 39px;
+  }
+  .beauty .indegrients__desc {
+    margin-left: 10px;
+  }
+  .beauty .indegrients__hr {
+    margin-bottom: 10px;
+  }
+  .beauty .banner-center-wrap {
+    height: 706px;
+  }
+  .beauty .banner-center-wrap .container {
+    width: 690px;
+  }
+  .beauty .what-is__item {
+    grid-column: 2/3;
+  }
+  .beauty .farm__content {
+    flex-direction: column;
+  }
+  .beauty .farm__img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .beauty .farm__img-desc {
+    display: none;
+  }
+  .beauty .farm__img-tab-mob {
+    width: 100%;
+    display: block;
+  }
+  .beauty .sertificat__item {
+    margin: 0 45px;
+  }
+  .beauty .bottom {
+    flex-direction: column;
+  }
+  .beauty .bottom .seo__img {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .beauty .seo__img-desc {
+    display: none;
+  }
+  .beauty .seo__img-tab-mob {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .beauty .sub__title {
+    font-size: 15px;
+  }
+  .beauty ._mb-2 {
+    margin-bottom: 5px !important;
+  }
+  .beauty ._mb-4 {
+    margin-bottom: 22px !important;
+  }
+  /* .beauty ._mb-8 {
+    margin-bottom: 15px !important;
+  } */
+  .beauty ._mb-8 {
+    margin-bottom: 22px !important;
+  }
+  .beauty ._mb-11 {
+    margin-bottom: 30px !important;
+  }
+  .beauty .title-1,
+  .beauty .title-2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .beauty .container {
+    padding: 0 15px;
+  }
+  .beauty .banner {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    height: auto;
+    text-align: center;
+    margin-left: -15px;
+  }
+  .beauty .banner__img-mob {
+    grid-row: span 1;
+  }
+  .beauty .banner__txt {
+    grid-row: span 1;
+    padding: 30px 15px;
+  }
+  .beauty .banner__img-mob img {
+    display: block;
+    width: 100%;
+  }
+  .beauty .banner br {
+    display: none;
+  }
+  .beauty .block-1 {
+    margin-top: 45px;
+  }
+  .beauty .seo__txt br {
+    display: none;
+  }
+  .beauty .seo__img {
+    position: relative;
+    margin-top: 22px;
+    width: 100vw;
+    height: auto;
+  }
+  .beauty .standarts {
+    margin-top: 45px;
+  }
+  .beauty .standarts .container {
+    padding: 0;
+  }
+  .beauty .standarts__bg {
+    width: 100%;
+    margin: 0;
+  }
+  .beauty .standarts__wrapper {
+    padding: 45px 15px;
+  }
+  .beauty .standarts__list-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .beauty .standarts__wrapper .standarts__text-footnote {
+    display: none;
+  }
+  .beauty .standarts__list-2 {
+    grid-gap: 15px;
+  }
+  .beauty .indegrients-wrap {
+    margin-top: 45px;
+  }
+  .beauty .indegrients-title {
+    margin-bottom: 22px;
+  }
+  .beauty .indegrients__more {
+    margin-bottom: 20px;
+  }
+  .beauty .indegrients__more-title {
+    margin-bottom: 10px;
+    justify-content: start;
+    padding-left: 15px;
+  }
+  .beauty .formuls-wrap {
+    margin-top: 45px;
+  }
+  .beauty .formuls-title {
+    margin-bottom: 10px;
+  }
+  .beauty .formuls-desc {
+    margin-bottom: 30px;
+  }
+  .beauty .formuls__cards {
+    flex-direction: column;
+  }
+  .beauty .formuls__card {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .beauty .formuls__card:last-child {
+    margin-bottom: 0;
+  }
+  .beauty .banner-center-wrap {
+    margin-top: 45px;
+    height: auto;
+    padding: 45px 15px;
+  }
+  .beauty .banner-center-wrap .container {
+    width: 100%;
+  }
+  .beauty .banner-center {
+    margin: 0;
+    padding: 30px 22px;
+  }
+  .beauty .banner-center .title-2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .beauty .banner-center ._mb-4 {
+    margin-bottom: 0 !important;
+  }
+  .beauty .what-is-wrap {
+    margin-top: 45px;
+  }
+  .beauty .what-is__txt {
+    text-align: left;
+  }
+  .beauty .what-is__txt ._mb-5 {
+    margin-bottom: 10px !important;
+  }
+  .beauty .what-is__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    grid-gap: 11px;
+  }
+  .beauty .what-is__item {
+    width: 100%;
+  }
+  .beauty .what-is__item-img {
+    width: 100%;
+  }
+  .beauty .planet-spy {
+    margin-top: 45px;
+  }
+  .beauty .spy {
+    align-items: start;
+  }
+  .beauty .spy .title-2 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .beauty .farm .title-2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .beauty .farm__img {
+    width: 100vw;
+  }
+  .beauty .farm__img img {
+    height: auto;
+    width: 100%;
+  }
+  .beauty .sertificat__list {
+    flex-direction: column;
+  }
+  .beauty .sertificat__item {
+    margin-bottom: 22px;
+  }
+  .beauty .sertificat__item:last-child {
+    margin-bottom: 0;
+  }
+  .beauty .sertificat__img {
+    width: 92px;
+    height: 92px;
+  }
+  .beauty .sertificat__img img {
+    width: 100%;
+    height: auto;
+  }
+  .beauty .sertificat .title-3,
+  .beauty .sertificat .title-2 {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .beauty .farm-wrap {
+    margin-top: 30px;
+  }
+  .beauty .what-is__btn {
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+  }
+  .beauty .what-is__btn img {
+    width: 12px;
+    height: 6px;
+    margin-top: 2px;
+  }
+  .beauty .sertificat-wrap {
+    margin: 30px 0;
+  }
+  .beauty .sertificat__txt {
+    font-size: 17px;
+  }
+  .beauty .indegrients-wrap .container {
+    padding: 0;
+  }
+  .beauty .indegrients-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 15px;
+    text-align: left;
+  }
+  .beauty .formuls-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+  }
+  .beauty .formuls-desc {
+    font-size: 17px;
+    text-align: left;
+  }
+  .beauty .indegrients__more-desc {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .beauty .indegrients__caption {
+    font-size: 17px;
+    line-height: 19px;
+  }
+  .beauty .indegrients__caption-active {
+    font-size: 17px;
+    line-height: 19px;
+  }
+  .beauty .standarts__wrapper .title-2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .beauty .indegrients__container {
+    padding: 0 15px;
+  }
+  .beauty .indegrients__captions {
+    height: 90px;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0;
+    justify-content: flex-start;
+  }
+  .beauty .indegrients__caption {
+    margin-right: 15px;
+  }
+}
