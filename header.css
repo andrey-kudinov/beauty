@@ -7,7 +7,7 @@
    License: none (public domain)
 */
 
-@font-face {
+/* @font-face {
   font-family: "GTWalsheimPro";
   src: url("https://amwaycontent.ru/brand-centers/artistry/assets/fonts/GTWalsheimPro-Regular.ttf") format("opentype");
   font-weight: normal;
@@ -24,7 +24,7 @@
   src: url("https://amwaycontent.ru/brand-centers/artistry/assets/fonts/GTWalsheimPro-Bold.ttf") format("opentype");
   font-weight: bold;
   font-style: normal;
-}
+} */
 
 *,
 *::before,
