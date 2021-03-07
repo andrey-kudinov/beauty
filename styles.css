@@ -669,6 +669,9 @@ html {
 /* END BOTTOM BLOCK */
 
 @media screen and (max-width: 1199px) {
+  .beauty {
+    margin-top: 0;
+  }
   .beauty .container {
     padding: 0 39px;
   }

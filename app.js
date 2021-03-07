@@ -14,12 +14,10 @@ window.addEventListener("load", function () {
     };
   }
   document.querySelectorAll(".indegrients__caption")[0].classList.add("indegrients__caption-active");
-
   // открывашки для Подробнее и для карточек в What-is
   // возможно лучше было бы написать через clothest
   for (let i = 0; i < 5; i++) {
     document.querySelectorAll(".js-more-btn")[i].onclick = function () {
-      console.log("1");
       document.querySelectorAll(".js-more-desc")[i].classList.toggle("more-text_opened");
       document.querySelectorAll(".js-more-btn")[i].classList.toggle("btn_opened");
     };
